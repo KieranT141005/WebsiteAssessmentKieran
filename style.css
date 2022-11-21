@@ -1,0 +1,86 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.topnav {
+  background-color: #333;
+  justify-content: space-between;
+  overflow: hidden;
+  display: central;
+}
+
+.topnav a {
+  border:1px solid #444;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 18px;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: Sans-serif;
+  text-shadow: 2px 2px 5px #000;
+}
+
+.topnav a:hover {
+  background-color: #24242455;
+}
+
+.topnav a.active {
+  background-color: #333;
+  color: #333;
+}
+
+#logo {
+  float: left;
+}
+
+#DGC {
+  float: right;
+}
+
+img {
+  margin: auto;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  text-indent: 70px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-family: Sans-serif;
+}
+
+#yaco { /*You are currently on text*/
+  text-align: center;
+  text-indent: 70px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-family: Sans-serif;
+}
+
+p { 
+  text-align: center;
+  text-indent: 70px;
+  font-weight: italic;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: Sans-serif;
+}
+
+#learn {
+  text-align: center;
+  text-indent: 70px;
+  font-weight: italic;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-family: Sans-serif;
+  list-style-position: inside;
+}
+
+.sidebyside {
+float: left;
+display: block;
+margin-left: 400px;
+}
